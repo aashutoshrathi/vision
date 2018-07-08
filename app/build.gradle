@@ -1,0 +1,45 @@
+// This file provides basic support for building the TensorFlow demo
+// in Android Studio with Gradle.
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+    lintOptions {
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId = 'com.example.androidthings.imageclassifier'
+        minSdkVersion 27
+        targetSdkVersion 27
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            assets.srcDirs = ['./assets']
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.android.support:support-annotations:27.1.0'
+    implementation 'com.google.android.things.contrib:driver-button:1.0'
+    implementation 'org.tensorflow:tensorflow-lite:0.1.7'
+    compileOnly 'com.google.android.things:androidthings:1.0'
+}
