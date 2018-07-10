@@ -49,5 +49,6 @@
             android:textSize="30sp"
             android:textStyle="bold"
             tools:text="@string/help_message" />
+
     </LinearLayout>
 </RelativeLayout>

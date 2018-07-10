@@ -40,14 +40,14 @@ public class TtsSpeaker {
     private static final List<Utterance> SHUTTER_SOUNDS = new ArrayList<>();
     private static final List<Utterance> JOKES = new ArrayList<>();
     static {
-//        SHUTTER_SOUNDS.add(new ShutterUtterance("Click!"));
-//        SHUTTER_SOUNDS.add(new ShutterUtterance("Cheeeeese!"));
-//        SHUTTER_SOUNDS.add(new ShutterUtterance("Smile!"));
-//
-//        JOKES.add(new ISeeDeadPeopleUtterance());
-//        JOKES.add(new SupermanUtterance());
-//        JOKES.add(new LooksLikeMeUtterance());
-//        JOKES.add(new LensCapOnUtterance());
+        SHUTTER_SOUNDS.add(new ShutterUtterance("Click!"));
+        SHUTTER_SOUNDS.add(new ShutterUtterance("Cheeeeese!"));
+        SHUTTER_SOUNDS.add(new ShutterUtterance("Smile!"));
+
+        JOKES.add(new ISeeDeadPeopleUtterance());
+        JOKES.add(new SupermanUtterance());
+        JOKES.add(new LooksLikeMeUtterance());
+        JOKES.add(new LensCapOnUtterance());
     }
 
     /**
