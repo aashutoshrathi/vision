@@ -14,7 +14,7 @@ loud using Text-To-Speech to the default audio output.
 ![Schematics](rpi3_schematics_tf.png)
 
 
-## How to train your ~~Dragon 🐉 ~~ Model?
+## How to train your ~~Dragon 🐉~~ Model?
 
 First thought after cloning this is that how can I train my own custom model, so that I can extend categories and all.
 
