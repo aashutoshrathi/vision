@@ -18,17 +18,14 @@ loud using Text-To-Speech to the default audio output.
 
 ![Schematics](rpi3_schematics_tf.png)
 
-## Run on Android Things Starter Kit
 
-If you have an Android Things Starter Kit, you can easily run this sample on your i.MX7D development board from the [Android Things Toolkit](https://play.google.com/store/apps/details?id=com.google.android.things.companion&hl=en) app.
+## How to train your ~~Dragon~~ Model?
 
-To run the sample on your i.MX7D development board:
-  1. Set up your device using Toolkit
-  2. Navigate to the Apps tab
-  3. Select Run next to the Image Classifier sample.
-  4. Press the "A" button on your Rainbow HAT or tap on the display to take a photo.
+First thought after cloning this framework is that how can I train my own custom model, so that I can extend categories and all.
 
-![Running Image Classifier Sample on Toolkit][toolkit-jpg]
+
+## Demo
+
 
 ## Enable auto-launch behavior
 
@@ -48,3 +45,18 @@ add the following `intent-filter` to the app's manifest file:
 </activity>
 ```
 
+## License
+
+This is Float32 extension of [Google's Sample Image Classifier for Android](https://github.com/androidthings/sample-tensorflow-imageclassifier)
+
+## Contributors
+
+<details>
+	<summary>Team Vision</summary>
+		<ul>
+		    <li><a href="https://github.com/prithaupadhyay">Pritha Upadhyay</a></li>
+			<li><a href="https://github.com/VaaibhaviSingh">Vaaibhavi Singh</a></li>
+			<li><a href="https://github.com/anshumanv">Anshuman Verma</a></li>
+			<li><a href="https://github.com/aashutoshrathi">Aashutosh Rathi</a></li>
+		</ul>
+</details>
