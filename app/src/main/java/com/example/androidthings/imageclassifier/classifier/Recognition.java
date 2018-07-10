@@ -1,5 +1,7 @@
 package com.example.androidthings.imageclassifier.classifier;
 
+import android.annotation.SuppressLint;
+
 /**
  * An immutable result returned by a Classifier describing what was recognized.
  */
@@ -39,6 +41,7 @@ public class Recognition {
         return confidence == null ? 0f : confidence;
     }
 
+    @SuppressLint("DefaultLocale")
     @Override
     public String toString() {
         String resultString = "";

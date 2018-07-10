@@ -21,8 +21,6 @@ import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.util.Log;
 
-import com.example.androidthings.imageclassifier.classifier.Recognition;
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;

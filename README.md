@@ -9,19 +9,14 @@ classifier are shown on the screen, if there is an attached display. Also, the r
 loud using Text-To-Speech to the default audio output.
 
 
-## Screenshots
-
-![TensorFlow Lite image classifier sample demo][demo-gif]
-
-
 ## Schematics
 
 ![Schematics](rpi3_schematics_tf.png)
 
 
-## How to train your ~~Dragon~~ Model?
+## How to train your ~~Dragon 🐉 ~~ Model?
 
-First thought after cloning this framework is that how can I train my own custom model, so that I can extend categories and all.
+First thought after cloning this is that how can I train my own custom model, so that I can extend categories and all.
 
 
 ## Demo
