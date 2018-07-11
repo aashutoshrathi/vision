@@ -40,7 +40,7 @@ import java.util.PriorityQueue;
  */
 public class TensorFlowHelper {
 
-    private static final int RESULTS_TO_SHOW = 2;
+    private static final int RESULTS_TO_SHOW = 3;
     private static final int IMAGE_MEAN = 128;
     private static final float IMAGE_STD = 128.0f;
 
