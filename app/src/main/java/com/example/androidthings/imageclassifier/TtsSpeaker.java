@@ -44,10 +44,10 @@ public class TtsSpeaker {
         SHUTTER_SOUNDS.add(new ShutterUtterance("Cheeeeese!"));
         SHUTTER_SOUNDS.add(new ShutterUtterance("Smile!"));
 
-        JOKES.add(new ISeeDeadPeopleUtterance());
-        JOKES.add(new SupermanUtterance());
-        JOKES.add(new LooksLikeMeUtterance());
-        JOKES.add(new LensCapOnUtterance());
+//        JOKES.add(new ISeeDeadPeopleUtterance());
+//        JOKES.add(new SupermanUtterance());
+//        JOKES.add(new LooksLikeMeUtterance());
+//        JOKES.add(new LensCapOnUtterance());
     }
 
     /**
@@ -58,7 +58,7 @@ public class TtsSpeaker {
     /**
      * For multiple results, speak only the first if it has at least this much confidence
      */
-    private static final float SINGLE_ANSWER_CONFIDENCE_THRESHOLD = 0.4f;
+    private static final float SINGLE_ANSWER_CONFIDENCE_THRESHOLD = 0.6f;
 
     /**
      * Stores joke utterances keyed by time last spoken.
@@ -69,7 +69,7 @@ public class TtsSpeaker {
      * Controls where to use jokes or not. If true, jokes will be applied randomly. If false, no
      * joke will ever be played. Use {@link #setHasSenseOfHumor(boolean)} to change the mood.
      */
-    private boolean mHasSenseOfHumor = true;
+    private boolean mHasSenseOfHumor = false;
 
     public TtsSpeaker() {
         mJokes = new TreeMap<>();

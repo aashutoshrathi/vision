@@ -1,16 +1,11 @@
-chairs
-danger knife
-guns
-keys
-pens
-roads
-tables
-ten rupee
-two thousand rupees note
-zebra crossings
-daisy
-dandelion
+chair
+knife
+gun
+human
+key
+pen
 road
-roses
-sunflowers
-tulips
+table
+ten rupee
+two thousand rupee note
+zebra crossing
