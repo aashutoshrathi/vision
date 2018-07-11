@@ -33,10 +33,19 @@ $ sudo pip install tensorboard
 
 1. Load your images of one category with folder name as the object name.
 2. `cd tools/` and copy the path to folder of images.
-3. Generate .pb and checkpoints file using
+3. Generate **.pb** and **checkpoint** file using
     ```sh
     python retrain.py --image_dir <path-to-dataset>
     ```
+
+After the training is complete you can also visualize training and see stats of training using
+
+```sh
+tensorboard --logdir /tmp/retrain_logs
+```
+
+where `/tmp/retrain_logs` is your log directory.
+
 
 ### Check you GraphDef file
 
