@@ -2,16 +2,29 @@
 
 ## Introduction
 
+Blind people have an immeasurable curiosity about the world around them and one of the major obstacle faced by them in their daily life is identifying what is present in front of them. Vision aims to become their sight.
+
 When a button is pushed or when the touchscreen is touched, the current image is captured from the
 camera. The image is then converted and piped into a TensorFlow Lite classifier model that
 identifies what is in the image. Up to three results with the highest confidence returned by the
 classifier are shown on the screen, if there is an attached display. Also, the result is spoken out
 loud using Text-To-Speech to the default audio output.
 
+![Flow of Vision](flow.png)
+
 
 ## Schematics
 
-![Schematics](rpi3_schematics_tf.png)
+![Schematics](nxp_schematics.png)
+
+
+## Results as per custom trained model
+
+We have trained for 15 custom categories, few are below, with their working samples.
+
+| Bottle             |  Dog |
+:-------------------------:|:-------------------------:
+![](Bottle.png)  |  ![](Dog.png)
 
 
 ## How to train your ~~Dragon 🐉~~ Model?
@@ -99,7 +112,7 @@ $ sudo pip install toco
 
 Now, convert using:
 
-```sh 
+```sh
 IMAGE_SIZE=224
 toco \
   --input_file=tf_files/retrained_graph.pb \
