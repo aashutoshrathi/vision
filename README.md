@@ -4,6 +4,8 @@
 
 Blind people have an immeasurable curiosity about the world around them and one of the major obstacle faced by them in their daily life is identifying what is present in front of them. Vision aims to become their sight.
 
+Vision helps the blind people identify objects by producing output in the form of audio signals. The project's approach lies in developing a system based on NXPico MX7 which is capable of labeling objects with the help of TensorFlow libraries and converting the labeled text to speech using an API and producing output in the form of audio signals.
+
 When a button is pushed or when the touchscreen is touched, the current image is captured from the
 camera. The image is then converted and piped into a TensorFlow Lite classifier model that
 identifies what is in the image. Up to three results with the highest confidence returned by the
@@ -170,3 +172,8 @@ This is Float32 extension of [Google's Sample Image Classifier for Android](http
 			
 		</ul>
 </details>
+
+## References
+
+- [Model Retraining and Transfer Learning](https://www.tensorflow.org/tutorials/image_retraining)
+- [Generate TFLite file](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/#0)
