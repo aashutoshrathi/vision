@@ -168,8 +168,6 @@ This is Float32 extension of [Google's Sample Image Classifier for Android](http
 			<li><a href="https://github.com/anshumanv">Anshuman Verma</a></li>
 		        <li><a href="https://github.com/prithaupadhyay">Pritha Upadhyay</a></li>
 			<li><a href="https://github.com/VaaibhaviSingh">Vaaibhavi Singh</a></li>
-			
-			
 		</ul>
 </details>
 
